@@ -698,3 +698,12 @@ footer{
 	transform: rotate(90deg);
 	padding-bottom: 20px;
 }
+.block-uslugi .wrap{
+	position: relative;
+}
+.scrolling{
+	position: absolute;
+	left: 47.5%;
+    top: -29px;
+	z-index: 999;
+}
