@@ -638,6 +638,9 @@ footer{
 	background-color: #333333;
 	padding: 40px 0;
 }
+.footer-menu{
+	display: flex;
+}
 .logo-footer{
 	display: flex;
 	font-weight: bold;
