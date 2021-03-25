@@ -684,11 +684,17 @@ footer{
 }
 .arrow-upped{
 	position: absolute;
-	right: 0;
-	top: 0;
-	transform: rotate(-90deg);
+	right: 120px;
+	top: 70px;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 17px;
+	line-height: 0px;
 	color: #F9F9F9;
+	transform: rotate(-90deg);
+	display: flex;
+	align-items: center;
+}
+.arrow-upped img{
+	transform: rotate(90deg);
+	padding-bottom: 20px;
 }
